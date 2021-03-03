@@ -1,4 +1,4 @@
-# Calculator
+# calculator
 
 ![calculator](https://user-images.githubusercontent.com/25439780/94253687-1810d400-ff3f-11ea-967e-1b5b8ee961d5.jpg)
 
