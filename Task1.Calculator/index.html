@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task1 Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="instruction">
+        <p>Инструкция для проверяющих</p>
+        <div class="list">
+          <ul>
+          <ol>1. Кнопка +/- позволяет сменить положительное число на отрицательное и наоборот
+            (число должно находиться в поле ввода)
+            Вводим число нажимаем кнопку +/- => перед числом становиться знак -.
+          </ol>
+          <ol>2. Кнопка √ - извлечение квадратного корня (вводим число нажимаем на кнопку √).
+            Результат получаем на лету</ol>
+          <ol>3. Кнопка x<sup>n</sup> - возведение в сепень(вводим число нажимаем на кнопку x<sup>n</sup> 
+            вводим степень в которую будем возводить => нажимаем =)</ol>
+          <ol>По всем вопросам обращайтесь в discord - Domask#3799</ol>
+        </ul> 
+        </div>
+      </div>
+  </div> 
+
+  
+	<div class="calculator-grid">
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-delete class="span-two">DEL</button>
+    <button data-plus-minus>+/-</button>
+   
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>*</button>
+    <button data-sqrt>√</button>
+
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>/</button>
+    <button data-operation>x<sup>n</sup></button>
+
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>+</button>
+    <button data-equals class="span-two-vert">=</button>
+
+    <button data-number class="span-two">0</button>
+    <button data-number class="fontsize-two">.</button>
+    <button data-operation>-</button>
+  </div>
+</body>
+</html>
